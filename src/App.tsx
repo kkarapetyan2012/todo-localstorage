@@ -19,12 +19,6 @@ const tabs = [
   }
 ]
 
-type newTasksProp = {
-  id: number;
-  title: string;
-  isCompleted: boolean;
-}
-
 function App() {
 
   const [toggleTabs, setToggleTabs] = useState<number>(1);
