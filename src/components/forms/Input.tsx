@@ -46,7 +46,7 @@ const Input: FC<InputProps> =
       if ((value === '' && !focused) || placeholder) {
         setFocused(false);
       }
-    }, [value]);
+    }, [value, focused, placeholder]);
 
     return (
       <div className={createCSSClass(['input_wrapper', className])}>
